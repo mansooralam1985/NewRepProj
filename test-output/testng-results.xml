@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37448" started-at="2019-10-09T14:57:30Z" finished-at="2019-10-09T14:58:08Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="37448" started-at="2019-10-09T14:57:30Z" finished-at="2019-10-09T14:58:08Z">
+      <class name="pack.selenium.TestNGDataProvider">
+        <test-method status="PASS" signature="LaunchBrowserTest(java.lang.String)[pri:0, instance:pack.selenium.TestNGDataProvider@604ed9f0]" name="LaunchBrowserTest" is-config="true" duration-ms="29309" started-at="2019-10-09T20:27:01Z" finished-at="2019-10-09T20:27:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowserTest -->
+        <test-method status="PASS" signature="Url(java.lang.String)[pri:0, instance:pack.selenium.TestNGDataProvider@604ed9f0]" name="Url" is-config="true" duration-ms="13258" started-at="2019-10-09T20:27:30Z" finished-at="2019-10-09T20:27:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Url -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:pack.selenium.TestNGDataProvider@604ed9f0]" name="Login" is-config="true" duration-ms="2918" started-at="2019-10-09T20:27:44Z" finished-at="2019-10-09T20:27:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mansoor@ideliver-inc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[786450am]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="FAIL" signature="TestMethod1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pack.selenium.TestNGDataProvider@604ed9f0]" name="TestMethod1" duration-ms="21062" started-at="2019-10-09T20:27:46Z" data-provider="providerName" finished-at="2019-10-09T20:28:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mansoor@ideliver-inc.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dilip@ideliver-inc.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sourabhc@ideliver-inc.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[selenium TestNG ]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'COMPOSE')]"}
+Command duration or timeout: 20.80 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'IDELIVER1', ip: '192.168.1.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 505f2044-cf7d-4a34-8e33-6409be6fdc6c
+*** Element info: {Using=xpath, value=//div[contains(text(),'COMPOSE')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'COMPOSE')]"}
+Command duration or timeout: 20.80 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'IDELIVER1', ip: '192.168.1.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 505f2044-cf7d-4a34-8e33-6409be6fdc6c
+*** Element info: {Using=xpath, value=//div[contains(text(),'COMPOSE')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at pack.selenium.GmailReusableMethods.fnCompose(GmailReusableMethods.java:50)
+	at pack.selenium.TestNGDataProvider.TestMethod1(TestNGDataProvider.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'COMPOSE')]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:32:46'
+System info: host: 'IDELIVER1', ip: '192.168.1.19', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/IDELIV~1/AppData/Local/Temp/anonymous387437315678897037webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/IDELIV~1/AppData/Local/Temp/anonymous387437315678897037webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod1 -->
+      </class> <!-- pack.selenium.TestNGDataProvider -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

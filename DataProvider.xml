@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <parameter name="BrowserName" value="firefox"> </parameter> 
+  <test name="Test">
+    <parameter name="strUrl" value="http://www.gmail.com"> </parameter> 
+    <classes>
+     <parameter name="username" value="mansoor@ideliver-inc.com"> </parameter>
+     <parameter name="password" value="786450am"> </parameter>
+     
+      <class name="pack.selenium.TestNGDataProvider"/>
+    </classes>
+  </test> <!-- Test --><parameter name="BrowserName" value="firefox"></parameter>
+</suite> <!-- Suite -->

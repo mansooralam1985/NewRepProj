@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="BrowserName" value="firefox"/>
+  <parameter name="password" value="786450am"/>
+  <parameter name="strUrl" value="http://www.gmail.com"/>
+  <parameter name="username" value="mansoor@ideliver-inc.com"/>
+  <test name="Test(failed)">
+    <parameter name="password" value="786450am"/>
+    <parameter name="strUrl" value="http://www.gmail.com"/>
+    <parameter name="username" value="mansoor@ideliver-inc.com"/>
+    <classes>
+      <class name="pack.selenium.TestNGDataProvider">
+        <methods>
+          <include name="LaunchBrowserTest"/>
+          <include name="TestMethod1" invocation-numbers="0"/>
+          <include name="Login"/>
+          <include name="Url"/>
+        </methods>
+      </class> <!-- pack.selenium.TestNGDataProvider -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  
+   <parameter name="URL" value="http://newtours.demoaut.com/"> </parameter> 
+    <classes>
+      <class name="mainscript.script"/>
+      <parameter name="Username" value="jhon"> </parameter> 
+      <parameter name="Password" value="mercury"> </parameter>
+      <parameter name="count" value="2"> </parameter>
+      <parameter name="fromport" value="London"> </parameter>
+      <parameter name="toport" value="Paris"> </parameter>
+      <parameter name="frommonth" value="April"> </parameter>
+       <parameter name="flightp" value="Unified Airlines"> </parameter>
+       <parameter name="firstnam" value="Mansoor"> </parameter>
+       <parameter name="lastname" value="Alam"> </parameter>
+       <parameter name="creditno" value="11111111111"> </parameter>
+       
+        </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
